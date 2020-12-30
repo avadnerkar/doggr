@@ -1,4 +1,4 @@
-package com.doggo.molly.doggr.ui
+package com.doggo.molly.doggr.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
