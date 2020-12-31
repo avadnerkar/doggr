@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145098010677",
+    "project_id": "doggr-200d3",
+    "storage_bucket": "doggr-200d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145098010677:android:66aaf3e28d15f269cc417c",
+        "android_client_info": {
+          "package_name": "com.doggo.molly.doggr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145098010677-qanh09olub7gk1ms9cnoir9vnasjr1b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlaT58iBHZb3DcvjVh1eJJmJQuq_M8i1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145098010677-qanh09olub7gk1ms9cnoir9vnasjr1b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

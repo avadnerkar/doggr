@@ -10,6 +10,16 @@ object Libs {
 
     const val material = "com.google.android.material:material:1.1.0"
 
+    object Google {
+        const val googleServicesPlugin = "com.google.gms:google-services:4.3.4"
+
+        object Firebase {
+            const val bom = "com.google.firebase:firebase-bom:26.2.0"
+            const val auth = "com.google.firebase:firebase-auth-ktx"
+            const val firestore = "com.google.firebase:firebase-firestore-ktx"
+        }
+    }
+
     object Accompanist {
         private const val version = "0.4.1"
         const val coil = "dev.chrisbanes.accompanist:accompanist-coil:$version"

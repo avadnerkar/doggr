@@ -5,6 +5,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
 }
 
 kapt {
@@ -80,4 +81,8 @@ dependencies {
     kapt Libs.Dagger.compiler
     implementation Libs.Dagger.hiltViewModel
     kapt Libs.Dagger.hiltExtensionCompiler
+
+    implementation platform(Libs.Google.Firebase.bom)
+    implementation Libs.Google.Firebase.auth
+    implementation Libs.Google.Firebase.firestore
 }

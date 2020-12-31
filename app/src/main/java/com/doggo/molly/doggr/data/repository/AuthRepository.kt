@@ -9,5 +9,7 @@ interface AuthRepository {
 
     suspend fun signup(email: String, password: String): ResponseResult<Unit>
 
+    suspend fun logout(): ResponseResult<Unit>
+
     fun observeAuthentication(): Flow<Boolean>
 }
